@@ -1,19 +1,30 @@
 # Windows Architecture
 
-Windows OS is divided into two main modes.
+Windows OS is designed using a layered architecture to improve stability and security.
 
-## 🔹 User Mode
-- Runs user applications
-- Limited access
-- Examples: Browser, Notepad
-
-## 🔹 Kernel Mode
-- Full hardware access
-- Core OS components
+## User Mode
+- Runs user applications and services
+- Has limited access to system resources
+- Cannot directly access hardware
 - Examples:
+  - Web browsers
+  - Office applications
+  - Media players
+
+If a user-mode application crashes, the operating system continues running.
+
+## Kernel Mode
+- Has unrestricted access to system hardware
+- Responsible for critical system operations
+- Components include:
   - Windows Kernel
   - Device Drivers
-  - HAL (Hardware Abstraction Layer)
+  - Hardware Abstraction Layer (HAL)
 
-📌 If a user-mode app crashes → OS survives  
-📌 If kernel-mode crashes → Blue Screen (BSOD)
+If a kernel-mode component fails, it can cause a system crash (BSOD).
+
+## Why this separation matters
+- Improves system stability
+- Prevents malicious applications from damaging the OS
+- Enforces security boundaries
+
