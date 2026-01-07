@@ -1,0 +1,16 @@
+# Windows File System & Permissions
+
+## NTFS Features
+- File permissions
+- Encryption (EFS)
+- Compression
+- Disk quotas
+
+## NTFS Permissions
+- Full Control
+- Modify
+- Read & Execute
+- Read
+- Write
+
+📌 NTFS is more secure than FAT32.
