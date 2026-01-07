@@ -1,0 +1,19 @@
+# Windows Architecture
+
+Windows OS is divided into two main modes.
+
+## 🔹 User Mode
+- Runs user applications
+- Limited access
+- Examples: Browser, Notepad
+
+## 🔹 Kernel Mode
+- Full hardware access
+- Core OS components
+- Examples:
+  - Windows Kernel
+  - Device Drivers
+  - HAL (Hardware Abstraction Layer)
+
+📌 If a user-mode app crashes → OS survives  
+📌 If kernel-mode crashes → Blue Screen (BSOD)
