@@ -1,16 +1,23 @@
 # Windows File System & Permissions
 
+Windows primarily uses the NTFS file system.
+
 ## NTFS Features
-- File permissions
+- File and folder permissions
 - Encryption (EFS)
 - Compression
 - Disk quotas
+- Large file support
 
 ## NTFS Permissions
-- Full Control
-- Modify
-- Read & Execute
-- Read
-- Write
+- Full Control: Complete access
+- Modify: Read, write, delete
+- Read & Execute: View and run files
+- Read: View file contents
+- Write: Create and modify files
 
-📌 NTFS is more secure than FAT32.
+## Key Rules
+- Deny permissions override Allow
+- Permissions can be inherited from parent folders
+- Effective permissions determine actual access
+
