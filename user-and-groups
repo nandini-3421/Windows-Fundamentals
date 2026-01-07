@@ -1,0 +1,14 @@
+# Users and Groups in Windows
+
+## User Types
+- Administrator
+- Standard User
+- Guest
+
+## Groups
+- Administrators
+- Users
+- Backup Operators
+- Remote Desktop Users
+
+📌 Principle of Least Privilege is important for security.
