@@ -1,0 +1,22 @@
+# Important Windows Commands
+
+## Networking Commands
+ipconfig
+ping
+tracert
+netstat
+arp -a
+
+## File Management
+dir
+copy
+move
+del
+mkdir
+rmdir
+
+## System Commands
+tasklist
+taskkill
+shutdown
+systeminfo
