@@ -1,14 +1,23 @@
 # Users and Groups in Windows
 
-## User Types
-- Administrator
-- Standard User
-- Guest
+Windows uses users and groups to manage access and permissions.
+
+## User Accounts
+- Administrator: Full system access
+- Standard User: Limited privileges
+- Guest: Temporary and restricted access
 
 ## Groups
+Groups simplify permission management.
+
+Common groups include:
 - Administrators
 - Users
 - Backup Operators
 - Remote Desktop Users
 
-📌 Principle of Least Privilege is important for security.
+## Best Practices
+- Assign permissions to groups instead of users
+- Follow the principle of least privilege
+- Avoid using Administrator account for daily work
+
