@@ -1,0 +1,20 @@
+# Windows Security Basics
+
+Windows includes built-in security mechanisms.
+
+## Security Features
+- Windows Defender Antivirus
+- Windows Firewall
+- User Account Control (UAC)
+- NTFS Permissions
+
+## Common Threats
+- Malware
+- Ransomware
+- Phishing
+- Unauthorized access
+
+## Security Best Practices
+- Keep OS updated
+- Use strong passwords
+- Enable firewall
